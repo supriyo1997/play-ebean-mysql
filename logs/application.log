@@ -1,0 +1,18 @@
+2023-12-10 00:20:15,491 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-8 - Database [default] initialized at jdbc:mysql://localhost/play?autoReconnect=true&useSSL=false
+2023-12-10 00:20:15,540 [INFO] from play.api.db.HikariCPConnectionPool in play-dev-mode-akka.actor.default-dispatcher-8 - Creating Pool for datasource 'default'
+2023-12-10 00:20:22,807 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-8 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2023-12-10 00:20:22,834 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-8 - Application started (Dev) (no global state)
+2023-12-10 00:22:02,064 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s700ms497µs800ns).
+2023-12-10 00:24:58,922 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m57s36ms168µs800ns).
+2023-12-10 00:26:52,250 [WARN] from akka.actor.ActorSystemImpl in play-dev-mode-akka.actor.default-dispatcher-8 - Illegal request, responding with status '400 Bad Request': Illegal HTTP message start
+2023-12-10 00:27:49,780 [WARN] from akka.actor.ActorSystemImpl in play-dev-mode-akka.actor.default-dispatcher-13 - Illegal request, responding with status '400 Bad Request': Illegal HTTP message start
+2023-12-10 00:28:25,646 [WARN] from akka.actor.ActorSystemImpl in play-dev-mode-akka.actor.default-dispatcher-12 - Illegal request, responding with status '400 Bad Request': Illegal HTTP message start
+2023-12-10 00:28:47,799 [WARN] from akka.actor.ActorSystemImpl in play-dev-mode-akka.actor.default-dispatcher-9 - Illegal request, responding with status '400 Bad Request': Illegal HTTP message start
+2023-12-10 00:30:12,507 [WARN] from akka.actor.ActorSystemImpl in play-dev-mode-akka.actor.default-dispatcher-12 - Illegal request, responding with status '400 Bad Request': Illegal HTTP message start
+2023-12-10 00:30:37,792 [INFO] from play.api.internal.libs.concurrent.CoordinatedShutdownSupport in pool-5-thread-2 - Starting synchronous coordinated shutdown with ServerStoppedReason reason and 35000 milliseconds timeout
+2023-12-10 00:30:37,834 [INFO] from play.core.server.AkkaHttpServer in pool-5-thread-2 - Stopping Akka HTTP server...
+2023-12-10 00:30:37,882 [INFO] from play.core.server.AkkaHttpServer in play-dev-mode-akka.actor.internal-dispatcher-2 - Terminating server binding for /0:0:0:0:0:0:0:0:9020
+2023-12-10 00:30:37,988 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.internal-dispatcher-3 - Shutting down connection pool.
+2023-12-10 00:30:38,395 [INFO] from play.core.server.AkkaHttpServer in play-dev-mode-akka.actor.internal-dispatcher-14 - Running provided shutdown stop hooks
